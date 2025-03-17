@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Kit ID - MyTempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header Section -->
+        <header>
+            <h1>Instruções de uso KIT ID</h1>
+            <p class="subheading">Numeral, Chip e sua Identificação</p>
+        </header>
+
+        <!-- Número de Peito Section -->
+        <section class="number-section">
+            <h2>Número de Peito</h2>
+            <p class="warning">Certifique-se <span class="highlight">dos dados</span> pessoais e participação impressos
+                no numeral.</p>
+            <div class="image-container">
+                <img src="../src/kit-img/Screenshot_2024-11-12_at_11.47.22-removebg-preview.png" alt="Número de Peito"
+                    onclick="abrirImagem('../src/kit-img/Screenshot_2024-11-12_at_11.47.22-removebg-preview.png')">
+            </div>
+        </section>
+
+        <!-- Instruções de Uso Section -->
+        <section class="instruction-section">
+            <p class="warning">Se houver divergência, informe a organização <span class="highlight">antes da
+                    largada.</span></p>
+            <div class="image-container">
+                <img src="../src/kit-img/c.png" alt="Exemplo de Numeral" class="ce">
+                <img src="../src/kit-img/e.png" alt="Exemplo de Numeral" class="ce">
+            </div>
+            <p>Deixe o numeral sempre à vista, nunca o cubra. <strong>Não coloque o numeral na lateral.</strong><br>
+                Facilite a anotação na chegada. Um backup do chip será anotado por um staff.</p>
+        </section>
+
+        <!-- Chip Section: Modelo 1 -->
+        <section class="chip-section">
+            <h2>Como Colocar o Chip - Modelo 1</h2>
+            <div class="image-container">
+                <img src="../src/kit-img/1.png" alt="Chip Modelo 1">
+            </div>
+            <div class="load">
+                <h3>Dicas de Uso</h3>
+                <p class="tips">
+                    Dica 1: Pé direito ou esquerdo, com cadarço já amarrado, entrelace a ponta A do chip no cadarço
+                    próximo aos dedos.<br>
+                    Dica 2: Complete o laço passando o lado A do chip pela abertura C.<br>
+                    Dica 3: Puxe o lado A até encaixar o rasgo C no rasgo D, pronto, chip fixado.
+                </p>
+                <div class="image-container">
+                    <div class="certo">
+                        <img src="../src/kit-img/13.png" alt="Demonstração Chip 2">
+                    </div>
+                    <div class="errado">
+                        <img src="../src/kit-img/12.png" alt="Demonstração Chip 1">
+                    </div>
+                </div>
+                <p>Seu chip deve ficar preso somente por uma ponta. A outra deve ficar solta, flutuando.</p>
+            </div>
+        </section>
+
+        <!-- Kit Contents Section -->
+        <section class="kit-contents">
+            <h3>Seu envelope contém:</h3>
+            <p>4 - Alfinetes para fixar o numeral<br> 1 - Número exclusivo intransferível<br> 1 - Pulseira para tênis
+                com chip<br> 2 - Tickets de Benefícios</p>
+            <p class="warning">Seu kit de identificação foi elaborado e lacrado por uma franquia My Tempo de
+                cronometragem.</p>
+        </section>
+
+        <!-- Chip Section: Modelo 2 -->
+        <section class="chip-section">
+            <h2>Como Colocar o Chip - Modelo 2</h2>
+            <div class="image-container">
+                <img src="../src/kit-img/2.png" alt="Chip Modelo 2">
+            </div>
+            <h3>Dicas de Uso</h3>
+            <p class="tips">
+                Dica 1: Passe a parte A pelo cadarço, conforme figura 1.<br>
+                Dica 2: Passe a parte A por dentro do furo da parte B de modo que fique travado.<br>
+                Dica 3: Gire o suporte de maneira que este lado fique para cima, conforme figura 3.
+            </p>
+            <div class="image-container">
+                <img src="../src/kit-img/3.png" alt="Demonstração Chip Modelo 2">
+            </div>
+        </section>
+
+        <!-- Real Illustration Section -->
+        <section class="number-section">
+            <h2>Ilustração Real</h2>
+            <div class="image-container">
+                <img src="../src/kit-img/11.png" alt="Ilustração Real">
+            </div>
+        </section>
+
+        <!-- Modal for Large Images -->
+        <div id="modal" class="modal">
+            <span class="fechar" onclick="fecharImagem()">&times;</span>
+            <img class="imagem-grande" id="imagem-grande" src="" alt="">
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </div>
+
+</body>
+
+</html>

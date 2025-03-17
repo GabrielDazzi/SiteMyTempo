@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="/src/img/fav.png">
+  <title>Sistema</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../src/styles.css">
+</head>
+
+<header>
+  <div>
+    <a href="/index.html">
+      <span class="arrow"></span>
+    </a>
+  </div>
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav class="menu">
+    <ul>
+      <li><a href="/index.html">Início</a></li>
+      <li><a href="/index.html#sobre">Sobre</a></li>
+      <li><a href="/index.html#servicos">Serviços</a></li>
+      <li><a href="/index.html#tutorial">Tutorial</a></li>
+      <li><a href="/index.html#contact">Contato</a></li>
+      <li><a href="https://mytempo.esp.br/">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <div class="titulo">
+    <h1>ASSESSORIA</h1>
+    <p class="p-titulos">Aprenda de forma simples os tópicos para atuar nos seguintes módulos</p>
+  </div>
+
+  <!-- Botão para abrir o painel -->
+  <button class="accordion">ACESSAR O SISTEMA</button>
+  <div class="panel">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="image">
+            <img src="../src/img/print 1.png" alt="Tela da Prova" onclick="abrirImagem('../src/img/print 1.png')">
+          </div>
+          <div class="description">
+            <p>Nessa tela você se cadastra ou faz login de sua conta já criada no MyTempo.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="image">
+            <img src="../src/img/print 2.png" alt="Tela da Prova" onclick="abrirImagem('../src/img/print 2.png')">
+          </div>
+          <div class="description">
+            <p>Escolha seu perfil de login (staff, assessoria ou franquia) e adicione sua senha de login.</p>
+          </div>
+        </div>
+        <!-- Adicione mais slides aqui, se necessário -->
+      </div>
+
+      <!-- Botões de navegação do Swiper -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <button class="accordion">INCLUIR E EDITAR</button>
+  <div class="panel">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="image">
+            <img src="../src/img/área da prova começo.png" alt="Tela da Prova"
+              onclick="abrirImagem('../src/img/área da prova começo.png')">
+          </div>
+          <div class="description">
+            <p>Nessa tela você tem acesso a tudo referente a prova (inscritos, categorias, percursos, check.
+              cadastrados,
+              etc..). Parte superior contém todas as ferramentas de edições da prova (importação, cadastrar/associar,
+              ferramentas, inscritos e cronometragem)</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="image">
+            <img src="../src/img/área de edição da prova.png" alt="Tela da Prova"
+              onclick="abrirImagem('../src/img/área de edição da prova.png')">
+          </div>
+          <div class="description">
+            <p>Local de edição da sua prova, onde você pode editar data, nome, cidade, largada, número de peito, etc..
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <span class="fechar" onclick="fecharImagem()">&times;</span>
+    <img class="imagem-grande" id="imagem-grande" src="">
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-copyright">
+        <p>&copy; 2025 MyTempo. Todos os direitos reservados.</p>
+      </div>
+      <div class="footer-d">
+        <h2 class="footer-t">Informações de Contato</h2>
+        <p class="footer-p">Email: contato@meusite.com</p>
+        <p class="footer-p">Telefone: (00) 1234-5678</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../src/scripts.js"></script>
+</body>
+
+</html>
