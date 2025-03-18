@@ -292,10 +292,6 @@ footer {
         display: block;
     }
 
-    .features ul {
-        margin-top: 25px;
-    }
-
     .info, .info2, .info3 {
         flex-direction: column-reverse;
         text-align: center;
