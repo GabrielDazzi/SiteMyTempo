@@ -77,10 +77,6 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
-.img0 {
-    display: none;
-}
-
 .hamburger {
     display: none;
     flex-direction: column;
@@ -280,10 +276,6 @@ footer {
         justify-content: space-around;
         opacity: 1;
         transition: opacity 0.3s ease;
-    }
-
-    .img0 {
-        display: flex;
     }
 
     .hero {
