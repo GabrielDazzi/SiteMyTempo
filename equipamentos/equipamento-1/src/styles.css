@@ -118,7 +118,7 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     height: 90vh;
-    background: linear-gradient(to right, rgb(42, 61, 116), rgb(68, 127, 177));    
+    background: linear-gradient(to right, rgb(42, 61, 116), rgb(68, 127, 177));
     padding: 100px;
     color: white;
     position: sticky;
@@ -246,6 +246,7 @@ footer {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -253,12 +254,12 @@ footer {
 }
 
 .fade-in {
-    opacity: 0; 
-    transition: opacity 0.5s ease-in-out; 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .fade-in.show {
-    opacity: 1; 
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -298,42 +299,48 @@ footer {
 
     .hero {
         display: flex;
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-    
+
     .hero h1 {
-        margin-bottom: -20px; 
-        font-size: 2rem; 
+        margin-bottom: -20px;
+        font-size: 2rem;
     }
-    
+
     .hero img {
         width: 160%;
         max-width: none;
         display: block;
     }
 
-    .info, .info2, .info3 {
+    .info,
+    .info2,
+    .info3 {
         flex-direction: column-reverse;
         text-align: center;
         padding: 30px 20px;
     }
 
-    .info img, .info2 img, .info3 img {
+    .info img,
+    .info2 img,
+    .info3 img {
         width: 90%;
         max-width: 300px;
         margin-top: 15px;
     }
 
-    .info .text, .info2 .text, .info3 .text {
+    .info .text,
+    .info2 .text,
+    .info3 .text {
         width: 100%;
     }
 
     .img1 {
         max-height: 300px;
         background: no-repeat center;
-        background-size: cover; 
+        background-size: cover;
         background-image: url("../src/img/teste.png");
     }
 
