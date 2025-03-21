@@ -117,7 +117,7 @@ nav ul li a:hover {
 
 .hero {
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(to right, rgb(42, 61, 116), rgb(68, 127, 177));
     padding: 100px;
     color: white;
@@ -166,10 +166,10 @@ nav ul li a:hover {
 }
 
 .img11 {
-    height: 600px;
+    height: 500px;
     background-image: url("../src/img/teste.png");
     position: sticky;
-    top: 0;
+    top: 70px;
     z-index: 1;
 }
 
