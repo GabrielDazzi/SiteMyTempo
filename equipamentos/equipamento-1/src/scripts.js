@@ -177,7 +177,7 @@ function togglePause() {
 // Função para aplicar a animação de fade-in
 function applyFadeInAnimation() {
     // Seleciona todos os elementos com a classe .row
-    const elementsToFade = document.querySelectorAll('.text, .info2, .info3');
+    const elementsToFade = document.querySelectorAll('.text2, .text, .img2, .img3, .img1');
     // Cria um IntersectionObserver para monitorar a visibilidade dos elementos
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
