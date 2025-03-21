@@ -131,7 +131,7 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    margin-bottom: -50px;
+    /* margin-bottom: 50px; */
 }
 
 .hero img {
@@ -171,7 +171,7 @@ nav ul li a:hover {
 
 .img11 {
     height: 800px;
-    background-color: #e7e7e7;
+    background-color: #dedede;
     background-image: url("../src/img/BANNER\ SEGUNDÁRIO.png");
     background-size: 1200px;
     background-repeat: no-repeat;
