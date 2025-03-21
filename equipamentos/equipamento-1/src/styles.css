@@ -117,7 +117,7 @@ nav ul li a:hover {
 
 .hero {
     text-align: center;
-    height: 100vh;
+    height: 100dvh;
     background: linear-gradient(to right, rgb(42, 61, 116), rgb(68, 127, 177));
     padding: 100px;
     color: white;
@@ -138,7 +138,7 @@ nav ul li a:hover {
 .info {
     position: relative;
     z-index: 1;
-    margin-top: -20vh;
+    margin-top: -20dvh;
 }
 
 .info2 {
