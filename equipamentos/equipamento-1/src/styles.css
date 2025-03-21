@@ -117,7 +117,7 @@ nav ul li a:hover {
 
 .hero {
     text-align: center;
-    height: 100dvh;
+    height: 105dvh;
     background: linear-gradient(to right, rgb(42, 61, 116), rgb(68, 127, 177));
     padding: 100px;
     color: white;
@@ -126,13 +126,17 @@ nav ul li a:hover {
     z-index: 0;
 }
 
+.mobile {
+    display: none;
+}
+
 .hero h1 {
     margin-bottom: -50px;
 }
 
 .hero img {
-    width: 80%;
-    max-width: 600px;
+    width: 110%;
+    max-width: 1300px;
 }
 
 .info {
@@ -166,8 +170,12 @@ nav ul li a:hover {
 }
 
 .img11 {
-    height: 500px;
-    background-image: url("../src/img/teste.png");
+    height: 800px;
+    background-color: #e7e7e7;
+    background-image: url("../src/img/BANNER\ SEGUNDÁRIO.png");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
     position: sticky;
     top: 70px;
     z-index: 1;
@@ -314,6 +322,7 @@ footer {
 
     .hero {
         display: flex;
+        background: linear-gradient(to right, rgb(42, 61, 116), rgb(68, 127, 177));
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -325,9 +334,7 @@ footer {
     }
 
     .hero img {
-        width: 160%;
-        max-width: none;
-        display: block;
+        display: none;
     }
 
     .info,
