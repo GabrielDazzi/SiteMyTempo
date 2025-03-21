@@ -138,15 +138,13 @@ nav ul li a:hover {
 .info {
     position: relative;
     z-index: 1;
-    margin-top: -20vh; /* Ajuste para sobreposição */
+    margin-top: -20vh;
 }
 
 .info,
 .info2,
 .info3 {
     display: flex;
-    position: relative;
-    z-index: 1;
     font-size: 1.1rem;
     color: black;
     align-items: center;
@@ -162,8 +160,6 @@ nav ul li a:hover {
 }
 
 .img11 {
-    position: relative;
-    z-index: 1;
     height: 500px;
     background-image: url("../src/img/teste.png");
 }
@@ -191,8 +187,6 @@ button {
 
 .features {
     text-align: center;
-    position: relative;
-    z-index: 1;
     padding: 40px;
     background: #626262;
 }
