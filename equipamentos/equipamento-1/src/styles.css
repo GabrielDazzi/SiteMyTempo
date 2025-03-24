@@ -360,10 +360,8 @@ footer {
     }
 
     .img11 {
-        max-height: 300px;
-        background: no-repeat center;
+        max-height: 500px;
         background-size: cover;
-        background-image: url("../src/img/teste.png");
     }
 
     .text2 {
