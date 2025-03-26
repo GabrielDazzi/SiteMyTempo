@@ -690,7 +690,7 @@ footer {
     }
 
 }
-
+/* 
 @media (min-aspect-ratio: 2/1) {
     .hero-text {
         display: contents;
@@ -704,12 +704,11 @@ footer {
         justify-content: center;
         text-align: center;
         color: #ffffff;
-        background-image: url(../img2/bkuw.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-}
+} */
 
 @media (max-width: 1024px) {
     .Modalidades-P div {
