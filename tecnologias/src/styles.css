@@ -216,7 +216,7 @@ nav {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0s 0.3s;
-    background: linear-gradient(90deg, #3C8DBC, #2d6688);
+    /* background: linear-gradient(90deg, #3C8DBC, #2d6688); */
 }
 
 .modal.show {
