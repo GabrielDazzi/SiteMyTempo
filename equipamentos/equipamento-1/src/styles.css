@@ -165,7 +165,7 @@ nav ul li a:hover {
 
 .cima {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
     margin-top: 100px;
 }
 
@@ -182,7 +182,7 @@ nav ul li a:hover {
 }
 
 .cima2 {
-    position: relative; 
+    position: relative;
     z-index: 2;
     margin-top: 100px;
 }
