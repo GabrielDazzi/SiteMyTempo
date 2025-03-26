@@ -74,3 +74,4 @@ function fecharImagemHorizontal() {
     modalHorizontal.classList.remove("show");
     imagemHorizontal.src = ""; // Reseta a imagem para evitar carregamento errado
 }
+
