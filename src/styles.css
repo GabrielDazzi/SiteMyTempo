@@ -140,7 +140,7 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     color: #ffffff; */
-    background-image: url(../src/img/final.png);
+    background-image: url(/src/img/final.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
