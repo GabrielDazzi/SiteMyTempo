@@ -691,9 +691,9 @@ footer {
 
 }
 
-@media (min-aspect-ratio: 2/1) {
+@media (min-width:1921px){
     .hero-text {
-        display: flex;
+        display: contents;
     }    
     
     .hero {
@@ -709,7 +709,7 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
     }
-}
+    }
 
 @media (max-width: 1024px) {
     .Modalidades-P div {
