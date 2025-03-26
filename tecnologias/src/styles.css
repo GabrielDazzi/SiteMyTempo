@@ -195,7 +195,7 @@ header div {
 header img {
     position: absolute;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 10px; 
     top: 10px;
     left: 10px;
 }
