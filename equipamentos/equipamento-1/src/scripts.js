@@ -120,60 +120,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-const images = document.querySelectorAll('.carousel-images img');
-let currentIndex = 0;
-
-function showImage(index) {
-    const offset = -index * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-}
-
-document.querySelector('.carousel-prev').addEventListener('click', () => {
-    currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
-    showImage(currentIndex);
-});
-
-document.querySelector('.carousel-next').addEventListener('click', () => {
-    currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
-    showImage(currentIndex);
-});
-const modalidadesContainer = document.querySelector('.Modalidades-P');
-const items = Array.from(modalidadesContainer.children);
-
-// Função para duplicar os itens no final do container
-function duplicateItems() {
-    items.forEach(item => {
-        const clone = item.cloneNode(true);
-        modalidadesContainer.appendChild(clone);
-    });
-}
-
-// Monitora a posição de rolagem para saber quando duplicar
-modalidadesContainer.addEventListener('scroll', () => {
-    const scrollPosition = modalidadesContainer.scrollLeft;
-    const maxScrollPosition = modalidadesContainer.scrollWidth - modalidadesContainer.clientWidth;
-
-    // Quando chega ao final do container, duplicar os itens
-    if (scrollPosition >= maxScrollPosition - 1) {
-        duplicateItems();
-    }
-});
-
-// Função para alternar o estado de pausa
-function togglePause() {
-    const modalidadesContainer = document.querySelector('.Modalidades-P');
-
-    // Alterna a classe 'pausada' para pausar ou retomar a animação
-    modalidadesContainer.classList.toggle('pausada');
-
-    // Muda o texto do botão conforme o estado
-    if (modalidadesContainer.classList.contains('pausada')) {
-        pauseButton.textContent = "play_arrow"; // Ícone de play
-    } else {
-        pauseButton.textContent = "pause"; // Ícone de pause
-    }
-}
-
 // Função para aplicar a animação de fade-in
 function applyFadeInAnimation() {
     // Seleciona todos os elementos com a classe .row
