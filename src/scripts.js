@@ -201,7 +201,6 @@ window.addEventListener('scroll', applyFadeInAnimation);
 window.addEventListener('load', applyFadeInAnimation);
 
 
-
 // document.addEventListener("DOMContentLoaded", function () {
 //     const iconBoxes = document.querySelectorAll('.text');
 //     const imgBoxes = document.querySelectorAll('.img-text');
