@@ -135,14 +135,8 @@ nav ul li a:hover {
 .hero {
     height: 101vh;
     display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #ffffff; */
     background-image: url(/src/img/final.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
